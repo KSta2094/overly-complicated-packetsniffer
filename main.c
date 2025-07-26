@@ -67,11 +67,6 @@ int main() {
       exit(1);
     }
     send(afd, buffer, sizeof(buffer), 0);
-
-    // for (int i = 0; i != bytes - 1; i++) {
-    // printf("%02x", buffer[i]);
-    //}
-    // printf("\n");
   }
   close(afd);
   close(fd);
