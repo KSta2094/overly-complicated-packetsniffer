@@ -6,7 +6,7 @@
 #include <sys/un.h>
 #include <unistd.h>
 
-int *createSocket(char *file, char buffer[]) {
+int *createSocket(char *file, u_char buffer[]) {
 
   int res[2];
   memset(buffer, '0', sizeof(&buffer));

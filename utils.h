@@ -1,2 +1,1 @@
-
-int* createSocket(char *file, char buffer[]);
+int* createSocket(char *file, unsigned char buffer[]);
